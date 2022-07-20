@@ -1,0 +1,63 @@
+:root {
+  --background-color: white;
+  --text-color: black;
+
+  /* Error Window */
+  --c-error-border-color: rgb(255, 100, 100);
+  --c-error-shadow-color: rgb(255, 160, 160);
+
+  /* Hangang Temp */
+  --c-hangang-temp-gradient-color: linear-gradient(
+    45deg,
+    rgb(103, 171, 255),
+    rgb(52, 89, 255)
+  );
+  --c-hangang-temp-shadow-color: rgba(85, 113, 255, 0.5);
+  --c-hangang-temp-background-color: rgb(199, 212, 255);
+  --c-hangang-site-text-color: rgb(60, 60, 60);
+
+  --c-hangang-background-color: rgb(215, 215, 215);
+  --c-hangang-text-color: black;
+
+  /* Buttons */
+  --c-button-background-color: rgb(220, 220, 220);
+  --c-button-hover-background-color: rgb(200, 200, 200);
+  --c-button-text-color: rgb(50, 50, 50);
+
+  --c-help-text-color: rgb(100, 100, 100);
+
+  /* Dialog */
+  --c-dialog-container-background-color: rgba(255, 255, 255, 0.6);
+  --c-dialog-background-color: white;
+  --c-dialog-text-color: black;
+  --c-dialog-shadow-color: rgba(99, 136, 255, 0.5);
+  --z-dialog: 20;
+}
+
+:root {
+  --background-color: black;
+  --text-color: white;
+  
+  --c-error-shadow-color: rgb(120, 35, 35);
+  
+  --c-hangang-temp-gradient-color: linear-gradient(
+    45deg,
+    rgb(150, 197, 255),
+    rgb(52, 89, 255)
+  );
+  --c-hangang-temp-shadow-color: rgba(85, 113, 255, 0.4);
+  --c-hangang-temp-background-color: rgb(21, 37, 81);
+  --c-hangang-site-text-color: rgb(180, 180, 180);
+
+  --c-hangang-background-color: rgb(35, 35, 35);
+  --c-hangang-text-color: white;
+  
+  --c-button-background-color: rgb(50, 50, 50);
+  --c-button-hover-background-color: rgb(70, 70, 70);
+  --c-button-text-color: rgb(180, 180, 180);
+
+  --c-dialog-container-background-color: rgba(0, 0, 0, 0.6);
+  --c-dialog-background-color: black;
+  --c-dialog-text-color: white;
+  --c-dialog-shadow-color: rgba(99, 136, 255, 0.5);
+}
