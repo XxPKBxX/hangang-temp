@@ -57,6 +57,7 @@ const HangangData = (): JSX.Element => {
             </Temp>
             <Where
             onClick={change}
+            type={'button'}
             aria-label={'강 위치 변경'}>{data[current].SITE_ID}</Where>
           </HangangTemp>
         </HangangBorder>
